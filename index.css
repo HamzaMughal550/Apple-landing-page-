@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbar {
+    height: 3rem;
+    width: 100%;
+    background-color: #161617;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar i,
+.navbar a {
+    /* margin-left: 100px; */
+}
+
+.navbar a i {
+    font-size: 1.2rem;
+
+}
+
+.navbar a {
+    color: #fafafceb;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 8px;
+    margin: 0px 9px;
+}
+
+/* body */
+.vision-pro {
+    height: 600px;
+    width: 100%;
+    background-image: url(bdyimage1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.sub-vision {
+    padding-top: 21rem;
+}
+
+.sub-vision i {
+    font-size: 3rem;
+}
+
+.vision-pro h2 {
+    font-size: 3.5rem;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.vision-pro h3 {
+    margin: 0px;
+    margin: 5px 0px 15px 0px;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.pre-order {
+    margin: 0px;
+    color: #6e6e73;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    /* letter-spacing: .0em */
+}
+
+.learnmore {
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    color: #06c;
+    letter-spacing: inherit;
+    text-decoration: none;
+}
+
+.learnmore:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* sec-body */
+.sec-body {
+    height: 550px;
+    width: 100%;
+    background-image: url(body2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 47px;
+
+}
+
+h2 {
+    margin: 0px;
+    font-size: 55px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .002em;
+    margin: 6px 0px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: 0.65em
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.one {
+    margin-left: -9px
+}
+
+.two {
+    margin-left: 35px
+}
+
+.sec-body3 {
+    height: 550px;
+    width: 100%;
+    background-image: url(body3.jpg);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 47px;
+}
+
+/* SUB-SEC */
+@media only screen and(max-width:600px) {
+    .watch img {
+        width: 150px;
+    }
+
+}
+    
+.watch-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+.watch {
+    height: 560px;
+    width: 49%;
+  
+}
+
+.watch img {
+    height: 98%;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.pic-content {
+    position: relative;
+    top: -550px;
+}
+
+.one1 {
+    color: white;
+}
+
+.four {
+    color: wheat;
+}
+
+.watch h4 {
+    height: 50px;
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 550;
+    letter-spacing: 0em;
+    margin: 60px 0px -12px 0px;
+}
+
+.watch span {
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: .05em;
+    color: rgb(239, 17, 17);
+}
+
+.watch h5 {
+    margin: 9px 0px 2px 0px;
+    font-size: 19px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em
+}
+
+.watch a {
+    font-size: 17px;
+    line-height: 1.23536;
+}
